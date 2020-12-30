@@ -1,0 +1,25 @@
+﻿<Window x:Class="a9832Speech1CS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:a9832Speech1CS"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Topmost="True">
+    <Grid>
+        <Button x:Name="Button1" Grid.Column="0" Grid.Row="0" ClickMode="Release">-></Button>
+    </Grid>
+</Window>
+
+<!-- WindowStartupLocation="Manual" -->
+<!-- Press -->
+<!-- ClickMode="Release" -->
+<!-- ResizeMode="CanResize"  -->
+<!-- ResizeMode="CanResizeWithGrip" -->
+<!-- WindowStartupLocation="CenterScreen" -->
+<!-- WindowState="Maximized" -->
+<!-- BorderBrush="Black" -->
+<!-- BorderThickness="5" -->
